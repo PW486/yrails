@@ -1,0 +1,623 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PW486</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="https://avatars2.githubusercontent.com/u/14247340?v=4" type="image/png"></head>
+
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <div id="profile">
+      <div id="profile_img" style="background: url(https://avatars2.githubusercontent.com/u/14247340?v=4) center;"></div>
+      <div id="username"><span style="display:block;">Donggeon Lim</span><a href="https://github.com/PW486">@PW486</a></div>
+      <div id="userbio" style="display: block;">👨🏻‍💻 Software Developer </div>
+      <div id="about">
+                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://pw486.github.io">https://pw486.github.io</a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Korea, Republic of</span>
+                <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+                <div class="socials">
+                <span style="display:none !important;"><a href="https://www.twitter.com/undefined" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.linkedin.com/in/undefined/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.medium.com/@undefined/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+                </div>
+                </div>
+    </div>
+    <div id="display">
+      <div id="work">
+        <h1>Work.</h1>
+        <div class="projects" id="work_section">
+                        <a href="https://github.com/PW486/express-ts-starter" target="_blank">
+                        <section>
+                            <div class="section_title">express-ts-starter</div>
+                            <div class="about_section">
+                            <span style="display:block;">🚀 Quick Start TypeScript Express</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 10</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/react-antd-boilerplate" target="_blank">
+                        <section>
+                            <div class="section_title">react-antd-boilerplate</div>
+                            <div class="about_section">
+                            <span style="display:block;">⚛️ Create React Ant Design Boilerplate</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 6</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/swiftui-skeleton-app" target="_blank">
+                        <section>
+                            <div class="section_title">swiftui-skeleton-app</div>
+                            <div class="about_section">
+                            <span style="display:block;">🐦 SwiftUI Skeleton App (Starter)</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Swift</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/nest-graphql-sample" target="_blank">
+                        <section>
+                            <div class="section_title">nest-graphql-sample</div>
+                            <div class="about_section">
+                            <span style="display:block;">🐱 Nest GraphQL Sample Kit</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/moviepop" target="_blank">
+                        <section>
+                            <div class="section_title">moviepop</div>
+                            <div class="about_section">
+                            <span style="display:block;">Predict Number of Movie Viewers</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/speech-challenge" target="_blank">
+                        <section>
+                            <div class="section_title">speech-challenge</div>
+                            <div class="about_section">
+                            <span style="display:block;">TensorFlow Speech Recognition Challenge</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 2</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/alcohol-map" target="_blank">
+                        <section>
+                            <div class="section_title">alcohol-map</div>
+                            <div class="about_section">
+                            <span style="display:block;">Pub, Brewery, Store in Korea</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Ruby</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/ychatbot" target="_blank">
+                        <section>
+                            <div class="section_title">ychatbot</div>
+                            <div class="about_section">
+                            <span style="display:block;">Facebook Messenger Chatbot</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/travelup" target="_blank">
+                        <section>
+                            <div class="section_title">travelup</div>
+                            <div class="about_section">
+                            <span style="display:block;">Meet Up in Travel</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Kotlin</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/gitfolio" target="_blank">
+                        <section>
+                            <div class="section_title">gitfolio</div>
+                            <div class="about_section">
+                            <span style="display:block;"><img src="https://github.githubassets.com/images/icons/emoji/octocat.png?v8" class="emoji"> PW486's Gitfolio</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/lens" target="_blank">
+                        <section>
+                            <div class="section_title">lens</div>
+                            <div class="about_section">
+                            <span style="display:block;">Daum DNA Lens IT Blog &amp; News Viewer</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/01-maps" target="_blank">
+                        <section>
+                            <div class="section_title">01-maps</div>
+                            <div class="about_section">
+                            <span style="display:block;">Seoul Parks Map</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/miro-escape" target="_blank">
+                        <section>
+                            <div class="section_title">miro-escape</div>
+                            <div class="about_section">
+                            <span style="display:block;">VR Maze Escape</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C#</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/twichu/twichu-web" target="_blank">
+                        <section>
+                            <div class="section_title">twichu-web</div>
+                            <div class="about_section">
+                            <span style="display:block;">User Customized Web Service Using Twitter</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/go-grpc-micro" target="_blank">
+                        <section>
+                            <div class="section_title">go-grpc-micro</div>
+                            <div class="about_section">
+                            <span style="display:block;">🖇️ Microservice implemented in Go with gRPC, REST.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Go</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/algorithmtrainer" target="_blank">
+                        <section>
+                            <div class="section_title">algorithmtrainer</div>
+                            <div class="about_section">
+                            <span style="display:block;">Algorithm Speed Quiz Game</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/kieehack" target="_blank">
+                        <section>
+                            <div class="section_title">kieehack</div>
+                            <div class="about_section">
+                            <span style="display:block;">Kieek Git Hack</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/anbot" target="_blank">
+                        <section>
+                            <div class="section_title">anbot</div>
+                            <div class="about_section">
+                            <span style="display:block;">Chatbot + Spell Checker, Weather, etc.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/speedquiz" target="_blank">
+                        <section>
+                            <div class="section_title">speedquiz</div>
+                            <div class="about_section">
+                            <span style="display:block;">IT Topic Speed Quiz Game</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/spring-rest" target="_blank">
+                        <section>
+                            <div class="section_title">spring-rest</div>
+                            <div class="about_section">
+                            <span style="display:block;">🍃 REST API example using Spring Boot</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/mini-u-campus" target="_blank">
+                        <section>
+                            <div class="section_title">mini-u-campus</div>
+                            <div class="about_section">
+                            <span style="display:block;">Course Management System</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/i-am-hungry" target="_blank">
+                        <section>
+                            <div class="section_title">i-am-hungry</div>
+                            <div class="about_section">
+                            <span style="display:block;">Recipe Search &amp; Viewer Implemented in C++</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C++</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/namuwiki" target="_blank">
+                        <section>
+                            <div class="section_title">namuwiki</div>
+                            <div class="about_section">
+                            <span style="display:block;">Import namuwiki contents</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/navernews" target="_blank">
+                        <section>
+                            <div class="section_title">navernews</div>
+                            <div class="about_section">
+                            <span style="display:block;">Import popular NAVER news headlines</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/fat-file-system" target="_blank">
+                        <section>
+                            <div class="section_title">fat-file-system</div>
+                            <div class="about_section">
+                            <span style="display:block;">Implementing FAT File System</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/pw486.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">pw486.github.io</div>
+                            <div class="about_section">
+                            <span style="display:block;">📝 DevBoard - Tech Blog</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Shell</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/docker-elastic" target="_blank">
+                        <section>
+                            <div class="section_title">docker-elastic</div>
+                            <div class="about_section">
+                            <span style="display:block;">🐳 NGINX log visualization provided by Elastic Stack</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Dockerfile</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/rokaf" target="_blank">
+                        <section>
+                            <div class="section_title">rokaf</div>
+                            <div class="about_section">
+                            <span style="display:block;">📨 Send a letter to a ROK Air Force soldier</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/developer" target="_blank">
+                        <section>
+                            <div class="section_title">developer</div>
+                            <div class="about_section">
+                            <span style="display:block;">Growing Software Developer</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C#</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/leetcode" target="_blank">
+                        <section>
+                            <div class="section_title">leetcode</div>
+                            <div class="about_section">
+                            <span style="display:block;">📓 LeetCode Problems' Solutions</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C++</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/super-ngon" target="_blank">
+                        <section>
+                            <div class="section_title">super-ngon</div>
+                            <div class="about_section">
+                            <span style="display:block;">The Super Ngon Game</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C#</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/daumsportsnews" target="_blank">
+                        <section>
+                            <div class="section_title">daumsportsnews</div>
+                            <div class="about_section">
+                            <span style="display:block;">Import DAUM popular sports news headlines</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/the-genius" target="_blank">
+                        <section>
+                            <div class="section_title">the-genius</div>
+                            <div class="about_section">
+                            <span style="display:block;">tvN The Genius Games Implemented in C</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/calculator-compiler" target="_blank">
+                        <section>
+                            <div class="section_title">calculator-compiler</div>
+                            <div class="about_section">
+                            <span style="display:block;">JFlex &amp; JavaCUP Calculator Compiler</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Lex</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/triple-g" target="_blank">
+                        <section>
+                            <div class="section_title">triple-g</div>
+                            <div class="about_section">
+                            <span style="display:block;">Computer Graphics Club @ Kwangwoon University</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/anp3" target="_blank">
+                        <section>
+                            <div class="section_title">anp3</div>
+                            <div class="about_section">
+                            <span style="display:block;">Simple Music Player App for Android</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/younha-or-not" target="_blank">
+                        <section>
+                            <div class="section_title">younha-or-not</div>
+                            <div class="about_section">
+                            <span style="display:block;">Image Classification (Younha Recognition)</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PW486/yutnori" target="_blank">
+                        <section>
+                            <div class="section_title">yutnori</div>
+                            <div class="about_section">
+                            <span style="display:block;">A Korean Board Game Yutnori</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Shell</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/PeakTime/dawntime-ios" target="_blank">
+                        <section>
+                            <div class="section_title">dawntime-ios</div>
+                            <div class="about_section">
+                            <span style="display:block;">DawnTime iOS</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Swift</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a></div>
+      </div>
+      <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+      <div id="footer">
+        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
+    </script>
+
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
+
+</body></html>

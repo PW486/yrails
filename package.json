@@ -1,0 +1,17 @@
+{
+  "name": "gitfolio",
+  "version": "4.8.6",
+  "description": "PW486's Gitfolio",
+  "main": "index.html",
+  "author": "PW486",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "npm run build && npm run move && npm run clean",
+    "build": "gitfolio build PW486 --sort star --order desc --background yosemite.jpg",
+    "move": "mv ./dist/* ./",
+    "clean": "rm -rf ./dist"
+  },
+  "dependencies": {
+    "gitfolio": "^0.1.5"
+  }
+}
